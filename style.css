@@ -1,8 +1,49 @@
-1 header{
-    background-color: rgb(49, 102, 182);
-    color: rgb(255, 255, 255);
+*{
+    margin: 0 15px;
+    padding: 10px 0;
+}
+header{
+    background-color: darkslategrey;
+
+    color: white;
+
 }
 body{
-    background-color: rgb(49, 102, 182);
-    color: rgb(255, 255, 255);
+    background-color: rgba(0, 57, 245, 0.548);
+
+    color: white;
+
+}
+.cabecalho-imagem{
+    width: 20%;
+}
+
+.cabecalho{
+   background-color: #298BFF;
+    display: flex;
+    justify-content: space-around;
+    padding:24px 0;
+font-size: 24px;
+}
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+}
+.escola-imagem {
+    width: 25%;
+
+}
+.escola{
+    background-image: linear-gradient(#298BFF, #B0D5FA);
+    display: flex;
+    color: rgb(208, 214, 214);
+}
+.escola-conteudo{
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.escola-titullo{
+    padding: 24px ;
 }
